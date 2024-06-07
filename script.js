@@ -7,7 +7,7 @@ function changeImage() {
         img.setAttribute('alt', 'foto2');
     } else {
         img.setAttribute('src', '3.jpg');
-        img.setAttribute('src', 'foto3')
+        img.setAttribute('src', 'foto3');
     }
 
 
