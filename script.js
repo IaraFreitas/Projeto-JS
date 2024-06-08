@@ -1,31 +1,18 @@
-// function changeImage1() {
-    
-//     const img = document.getElementById('myImage1');
-   
-//     const currentSrc = img.getAttribute('src');
+function changeImageMuseum() {
 
-//     if (currentSrc === '1.jpg') {
-//         img.setAttribute('src', 'PROJETO-JS/2.jpg');
-//         img.setAttribute('alt', 'foto2');
-//     } else {
-//         img.setAttribute('src', 'PROJETO-JS/1.jpg');
-//         img.setAttribute('src', 'foto1');
-//     }
+    const img = document.getElementById('museums');
 
-// }
+    const museumsSrc = img.getAttribute('src');
 
-function changeImageDois() {
+    if (museumsSrc === 'Museum-Portuguese-Language.avif') {
+        img.setAttribute('src', 'Museum-AfroBrazil.jpg');
+        img.setAttribute('alt', 'museumTwo');
+    }
 
-    const img = document.getElementById ("testeDois");
-
-    const testeSrc = img.getAttribute('src');
-
-    if (testeSrc === '1.jpg') {
-        img.setAttribute("src", "2.jpg");
-        img.setAttribute("alt", "fotoDois");
-    } 
     else {
-        img.setAttribute("src", "1.jpg");
-        img.setAttribute("alt", "fotoUm");
-    } 
+        img.setAttribute('src', 'Museum-Pinacoteca-SP.jpg');
+        img.setAttribute('alt', 'museumThree');
+    }
+    
 }
+
