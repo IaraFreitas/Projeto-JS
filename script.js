@@ -21,6 +21,11 @@ function changeImageDois() {
     const testeSrc = img.getAttribute('src');
 
     if (testeSrc === '1.jpg') {
-        img.
-    }
+        img.setAttribute("srs", "2.jpg");
+        img.setAttribute("alt", "foto2");
+    } 
+    else {
+        img.setAttribute("srs", "1.jpg");
+        img.setAttribute("alt", "fotoUm");
+    } 
 }
