@@ -1,13 +1,13 @@
-function changeImage() {
-    const img = document.getElementById('myImage');
+function changeImage1() {
+    const img = document.getElementById('myImage1');
     const currentSrc = img.getAttribute('src');
 
-    if(currentSrc ==='1.jpg') {
-        img.setAttribute('src', '2.jpg');
-        img.setAttribute('alt', 'foto2');
+    if(currentSrc === '1.jpg') {
+        img.setAttribute('src', 'PROJETO-JS/2.jpg');
+        img.setAttribute('alt', 'foto1');
     } else {
-        img.setAttribute('src', '3.jpg');
-        img.setAttribute('src', 'foto3');
+        img.setAttribute('src', 'PROJETO-JS/1.jpg');
+        img.setAttribute('src', 'foto2');
     }
 
 
