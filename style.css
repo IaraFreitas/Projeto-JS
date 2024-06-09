@@ -7,38 +7,43 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body{
+    height: 100vh;
+}
 
 /*configuração do HEADER*/
 header{
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    background-color: rgb(255, 221, 0);
+    justify-content: space-evenly;
+    background-color: white;
     padding: 20px;
     align-items: center;
 }
 
+
 header nav{
-    display: flex;
-    gap: 10px;
+   gap: 10px;
+   margin-left: 50rem;  
+  
 }
 
 header button{
-    background-color: rgba(255, 217, 0, 0.938);
+    background-color: white;
     border: none;
-    margin-right: 30px;
-    align-items: center;
+    
 }
 
 header button a{
     font-size: 25px;
     font-weight: 600;
+    color: black;
+    
 }
 
 .logo-header{
     width: 50px;
     height: 50px;
-    margin-left: 30px;
+    
 }
 
 .logo-btn-header{
@@ -51,32 +56,42 @@ header button a{
     gap: 30px;
     font-size: 25px;
     font-weight: 600;
+    
+}
+
+.menu-header a{
+    color: black;
 }
 
 
 /*configuração do BLOCO-01*/
 .bloco-01{
-    width: 100%;
-    height: 50vh;
+    background-color: black;
+    color: white;
 }
 
 .bloco-01 h1{
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
 .bloco-01 p{
     text-align: justify;
-    font-size: 25px;
-    padding: 3rem;
+    font-size: 20px;
+    padding: 1.5rem;
 }
 
+.bloco-01 #video-sp {
+    height: 70vh;
+    width: 100%;
+    
+  }
 
 /*configuração do BLOCO-02*/
 .bloco-02{
     display: block;
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     background-color: orange;
 }
 
@@ -114,20 +129,28 @@ header button a{
 }
 
 /*configuração do BLOCO-03*/
-footer{
-    background-color: rgba(255, 217, 0, 0.938);
-    margin: 100vw auto;
+.bloco-03{
+    background-image: url(novo-cartao-postal-sp.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
 }
 
 
 /*configuração do FOOTER*/
+footer{
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: black;
+}
 footer img{
     width: 50px;
     height: 50px;
 }
 
 footer a{
-    color: black;
+    color: white;
     font-weight: 500;
     
 }
