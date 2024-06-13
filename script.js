@@ -1,56 +1,62 @@
-function changeImageMuseum() {
+//  function changeImageMuseum() {
 
-    const img = document.getElementById('museums');
+//     const img = document.getElementById('museums');
 
-    const museumsSrc = img.getAttribute('src');
+//     const museumsSrc = img.getAttribute('src');
 
-    if (museumsSrc === 'Museum-Portuguese-Language.avif') {
-        img.setAttribute('src', 'Museum-AfroBrazil.jpg');
-        img.setAttribute('alt', 'museumTwo');
-    }
+//     if (museumsSrc === 'Museum-Portuguese-Language.avif') {
+//         img.setAttribute('src', 'Museum-AfroBrazil.jpg');
+//         img.setAttribute('alt', 'museumTwo');
+//     }
 
-    else {
-        img.setAttribute('src', 'Museum-Pinacoteca-SP.jpg');
-        img.setAttribute('alt', 'museumThree');
-    }
+//     else {
+//         img.setAttribute('src', 'Museum-Pinacoteca-SP.jpg');
+//         img.setAttribute('alt', 'museumThree');
+//     }
     
-}
+// }
 
 
-function changeImageLugares() {
+// function changeImageLugares() {
 
-    const img = document.getElementById('lugares');
+//     const img = document.getElementById('lugares');
 
-    const lugaresSrc = img.getAttribute('src');
+//     const lugaresSrc = img.getAttribute('src');
 
-    if (lugaresSrc === 'lugares-1-LuzStation.jpg') {
-        img.setAttribute('src', 'lugares-2-masp.jpg');
-        img.setAttribute('alt', 'lugaresTwo');
-    }
+//     if (lugaresSrc === 'lugares-1-LuzStation.jpg') {
+//         img.setAttribute('src', 'lugares-2-masp.jpg');
+//         img.setAttribute('alt', 'lugaresTwo');
+//     }
 
-    else {
-        img.setAttribute('src', 'lugares-3-MercadaoSP.jpg');
-        img.setAttribute('alt', 'lugaresThree');
-    }
+//     else {
+//         img.setAttribute('src', 'lugares-3-MercadaoSP.jpg');
+//         img.setAttribute('alt', 'lugaresThree');
+//     }
 
     
-}
+// }
 
-function changeImageCtoCultural() {
+// function changeImageCtoCultural() {
 
-    const img = document.getElementById('cto-cultural');
+//     const img = document.getElementById('cto-cultural');
 
-    const ctoCulturalSrc = img.getAttribute('src');
+//     const ctoCulturalSrc = img.getAttribute('src');
 
-    if (ctoCulturalSrc === 'cto-cultural-1-CCBB.jpg') {
-        img.setAttribute('src', 'cto-Cultural-2-Vergueiro.jpg');
-        img.setAttribute('alt', 'ctoCulturalTwo');
-    }
+//     if (ctoCulturalSrc === 'cto-cultural-1-CCBB.jpg') {
+//         img.setAttribute('src', 'cto-Cultural-2-Vergueiro.jpg');
+//         img.setAttribute('alt', 'ctoCulturalTwo');
+//     }
 
-    else {
-        img.setAttribute('src', 'cto-cultural-3-sala-sp.jpg');
-        img.setAttribute('alt', 'ctoCulturalThree');
-    }
+//     else {
+//         img.setAttribute('src', 'cto-cultural-3-sala-sp.jpg');
+//         img.setAttribute('alt', 'ctoCulturalThree');
+//     }
     
-}
+// }
 
+let museums = document.getElementById("museums");
+
+function changeImageMuseum(){
+    museums.classList.add("nextImg");
+    museums.classList.remove("img-all-blocos");
+}
